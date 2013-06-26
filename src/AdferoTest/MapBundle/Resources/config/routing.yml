@@ -1,0 +1,11 @@
+adfero_test_map_homepage:
+    pattern:  /map/
+    defaults: { _controller: AdferoTestMapBundle:Map:index }
+
+adfero_test_map_data:
+    pattern:  /map/data.php
+    defaults: { _controller: AdferoTestMapBundle:Map:show }
+
+adfero_test_map_new:
+    pattern:  /map/new/
+    defaults: { _controller: AdferoTestMapBundle:Map:create }

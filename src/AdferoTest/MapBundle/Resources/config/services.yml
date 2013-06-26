@@ -1,0 +1,7 @@
+parameters:
+#    adfero_test_map.example.class: AdferoTest\MapBundle\Example
+
+services:
+#    adfero_test_map.example:
+#        class: %adfero_test_map.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

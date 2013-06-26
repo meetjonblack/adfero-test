@@ -1,0 +1,106 @@
+body{
+    background-color: #58595B;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 960px;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.container .content{
+    min-height: 500px;
+}
+
+.header{
+    height: 100px;
+}
+
+.header img{
+    float: left;
+    margin-right: 10px;
+}
+
+.header h1{
+    float: right;
+    font-family: 'myriad-pro', sans-serif;
+    font-weight: 500px;
+}
+
+.footer{
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+#map-canvas {
+    box-shadow: 1px 2px 5px #E5E3DF;
+    height: 300px;
+    width: 600px;
+    float:left;
+    /*margin: 0 auto;/*/
+}
+
+
+.map form{
+    border: 1px solid #CECECE;
+    box-shadow: 1px 2px 3px #CECECE;
+    padding: 10px;
+    width: 270px;
+}
+
+.map form label{
+    display: inline-block;
+    margin: 10px 0;
+    width: 100px;
+}
+
+.pop-up{
+
+}
+
+.pop-up h2{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'myriad-pro', sans-serif;
+}
+
+.pop-up p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.marker-data{
+    border: 1px solid #cecece;
+    box-shadow: 1px 2px 3px #cecece;
+}
+.map-container{
+    float:left;
+}
+
+.map-container>h2, .data-container>h2{
+     text-transform: uppercase;
+    font-family: 'myriad-pro', sans-serif;
+    font-weight: 500;
+}
+
+.data-container{
+    padding: 0 20px;
+    float: left;
+}
+
+.button{
+    border: 1px solid #CECECE;
+    box-shadow: 1px 2px 3px #CECECE;
+    clear: both;
+    color: black;
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}

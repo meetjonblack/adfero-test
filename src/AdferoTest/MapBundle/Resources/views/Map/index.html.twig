@@ -1,0 +1,27 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+    <div class="map content">
+        <div class="map-container">
+            <h2>Map</h2>
+            <div id="map-canvas"></div>
+        </div>
+        <div class="data-container">
+            <h2>Marker Information</h2>
+            <table class="marker-data clearfix">
+                <tr>
+                    <th>Name</th>
+                    <th>X</th>
+                    <th>Y</th>
+                </tr>
+            {% for location in locations %}
+                <tr>
+                    <td>{{ location.name }}</td>
+                    <td>{{ location.xcoordinate }}</td>
+                    <td>{{ location.ycoordinate }}</td>
+                </tr>
+            {% endfor %}
+            </table>
+            <a class="button" href="new/">Add New Location</a>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,14 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: localhost
+    database_port: null
+    database_name: adfero
+    database_user: adfero
+    database_password: adfero
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: 83ad1f1b7d7feb49ce545947722c160f258298d9
+    database_path: null

@@ -1,0 +1,3 @@
+adfero_test_map:
+    resource: "@AdferoTestMapBundle/Resources/config/routing.yml"
+    prefix:   /

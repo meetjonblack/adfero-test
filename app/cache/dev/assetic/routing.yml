@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: 'C:/Dev/web/projects/adfero/app/config/routing_dev.yml'
