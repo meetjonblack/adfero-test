@@ -42,7 +42,7 @@ class MapController extends Controller
             $em->persist($location);
             $em->flush();
 
-            return $this->redirect($this->generateUrl('map'));
+            return $this->redirect($this->generateUrl('adfero_test_map_homepage'));
         }
 
         return $this->render('AdferoTestMapBundle:New:index.html.twig', array('form' =>$form->createView()));
@@ -74,7 +74,6 @@ class MapController extends Controller
             );
         }
 
-        $location->setName('New location name!');
         $em->flush();
 
         return $this->redirect($this->generateUrl('homepage'));

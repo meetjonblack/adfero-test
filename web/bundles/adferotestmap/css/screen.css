@@ -26,7 +26,7 @@ body{
 .header h1{
     float: right;
     font-family: 'myriad-pro', sans-serif;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .footer{
@@ -45,14 +45,15 @@ body{
 }
 
 
-.map form{
-    border: 1px solid #CECECE;
+.map-new form{
     box-shadow: 1px 2px 3px #CECECE;
     padding: 10px;
     width: 270px;
+    border: 10px solid #58595B;
+    margin: 0 auto;
 }
 
-.map form label{
+.map-new form label{
     display: inline-block;
     margin: 10px 0;
     width: 100px;
@@ -76,15 +77,20 @@ body{
 .marker-data{
     border: 1px solid #cecece;
     box-shadow: 1px 2px 3px #cecece;
+    width: 300px;
+    padding: 10px;
 }
 .map-container{
     float:left;
 }
 
-.map-container>h2, .data-container>h2{
+.map-container>h2, .data-container>h2, .map-new>h2{
      text-transform: uppercase;
     font-family: 'myriad-pro', sans-serif;
     font-weight: 500;
+    background-color: #58595B;
+    color: #ffffff;
+    padding: 10px;
 }
 
 .data-container{
@@ -99,8 +105,13 @@ body{
     color: black;
     display: block;
     font-size: 20px;
-    margin: 10px;
+    margin: 10px auto;
     padding: 10px;
     text-align: center;
     text-decoration: none;
+    width: 170px;
+}
+
+.map-new{
+    text-align: center;
 }
